@@ -1,8 +1,10 @@
-package com.teamvoyager.collegeapp_voyager;
+package com.teamvoyager.collegeapp_voyager.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.teamvoyager.collegeapp_voyager.R;
 
 public class MainActivity extends AppCompatActivity {
 
