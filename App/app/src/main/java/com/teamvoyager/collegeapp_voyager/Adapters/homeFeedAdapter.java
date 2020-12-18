@@ -1,4 +1,4 @@
-package bitsindri.hncc.collegeapp.Adapters;
+package com.teamvoyager.collegeapp_voyager.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,7 +35,7 @@ public class homeFeedAdapter extends RecyclerView.Adapter{
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.each_feed, parent, false);
-        return new homeFeedAdapter.FeedHolder(view);
+        return new bitsindri.hncc.collegeapp.Adapters.homeFeedAdapter.FeedHolder(view);
     }
 
     @Override
