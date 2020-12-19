@@ -1,13 +1,13 @@
-package bitsindri.hncc.collegeapp.activities;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+package com.teamvoyager.collegeapp_voyager.activities;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.facebook.shimmer.ShimmerFrameLayout;
 
@@ -40,9 +40,9 @@ public class WorkshopsAndWebinarsActivity extends AppCompatActivity {
         workshopsAndWebinarsArrayList.clear();
 
         workshopsAndWebinarsRecyclerView = findViewById(R.id.workshops_and_webinars_recycler_view);
-        workshopsAndWebinarsRecyclerView.setLayoutManager(new LinearLayoutManager(WorkshopsAndWebinarsActivity.this));
+        workshopsAndWebinarsRecyclerView.setLayoutManager(new LinearLayoutManager(bitsindri.hncc.collegeapp.activities.WorkshopsAndWebinarsActivity.this));
 
-        workshopsAndWebinarsAdapter = new InternshipsAndJobsAdapter( WorkshopsAndWebinarsActivity.this, workshopsAndWebinarsArrayList);
+        workshopsAndWebinarsAdapter = new InternshipsAndJobsAdapter( bitsindri.hncc.collegeapp.activities.WorkshopsAndWebinarsActivity.this, workshopsAndWebinarsArrayList);
         workshopsAndWebinarsRecyclerView.setAdapter(workshopsAndWebinarsAdapter);
 
 
@@ -63,7 +63,7 @@ public class WorkshopsAndWebinarsActivity extends AppCompatActivity {
 
                 if(!response.isSuccessful()){
                     //responseTextView.setText("Code: " + response.code());
-                    Toast.makeText(WorkshopsAndWebinarsActivity.this,"Code: " + response.code(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(bitsindri.hncc.collegeapp.activities.WorkshopsAndWebinarsActivity.this,"Code: " + response.code(), Toast.LENGTH_SHORT).show();
                     return;
                 }
 

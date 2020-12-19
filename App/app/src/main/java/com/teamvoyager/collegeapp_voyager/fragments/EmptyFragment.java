@@ -1,7 +1,5 @@
-package bitsindri.hncc.collegeapp.fragments;
+package com.teamvoyager.collegeapp_voyager.fragments;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,15 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import bitsindri.hncc.collegeapp.Adapters.EmptyAdapter;
-import bitsindri.hncc.collegeapp.Adapters.StoryAdapter;
-import bitsindri.hncc.collegeapp.Adapters.TelephoneAdapter;
-import bitsindri.hncc.collegeapp.Adapters.homeFeedAdapter;
 import bitsindri.hncc.collegeapp.Custom_Classes.EmptyClass;
-import bitsindri.hncc.collegeapp.Custom_Classes.PhoneNumber;
-import bitsindri.hncc.collegeapp.Custom_Classes.UserList;
-import bitsindri.hncc.collegeapp.GetterAndSetter.feed;
 import bitsindri.hncc.collegeapp.R;
-import xute.storyview.StoryModel;
 
 
 public class EmptyFragment extends Fragment implements EmptyAdapter.calluser {

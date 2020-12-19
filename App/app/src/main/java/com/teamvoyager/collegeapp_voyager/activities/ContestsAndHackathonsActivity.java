@@ -24,30 +24,28 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class InternshipsAndJobsActivity extends AppCompatActivity {
+public class ContestsAndHackathonsActivity extends AppCompatActivity {
 
-    ArrayList<internshipsAndJobs> internshipsAndJobsArrayList;
-    RecyclerView internshipsAndJobsRecyclerView;
-    InternshipsAndJobsAdapter InternshipsAndJobsAdapter;
+    ArrayList<internshipsAndJobs> contestsAndHackathonsArrayList;
+    RecyclerView contestsAndHackathonsRecyclerView;
+    InternshipsAndJobsAdapter contestsAndHackathonsAdapter;
     ShimmerFrameLayout mShimmerViewContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_internships_and_jobs);
+        setContentView(R.layout.activity_contests_and_hackathons);
 
         mShimmerViewContainer = findViewById(R.id.shimmer_view_container);
 
-        internshipsAndJobsArrayList = new ArrayList<>();
-        internshipsAndJobsArrayList.clear();
+        contestsAndHackathonsArrayList = new ArrayList<>();
+        contestsAndHackathonsArrayList.clear();
 
-        internshipsAndJobsRecyclerView = findViewById(R.id.internship_an_jobs_recycler_view);
-        internshipsAndJobsRecyclerView.setLayoutManager(new LinearLayoutManager(bitsindri.hncc.collegeapp.activities.InternshipsAndJobsActivity.this));
+        contestsAndHackathonsRecyclerView = findViewById(R.id.contests_and_hackathons_recycler_view);
+        contestsAndHackathonsRecyclerView.setLayoutManager(new LinearLayoutManager(bitsindri.hncc.collegeapp.activities.ContestsAndHackathonsActivity.this));
 
-        InternshipsAndJobsAdapter = new InternshipsAndJobsAdapter( bitsindri.hncc.collegeapp.activities.InternshipsAndJobsActivity.this, internshipsAndJobsArrayList);
-        internshipsAndJobsRecyclerView.setAdapter(InternshipsAndJobsAdapter);
-
-
+        contestsAndHackathonsAdapter = new InternshipsAndJobsAdapter( bitsindri.hncc.collegeapp.activities.ContestsAndHackathonsActivity.this,contestsAndHackathonsArrayList);
+        contestsAndHackathonsRecyclerView.setAdapter(contestsAndHackathonsAdapter);
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://3.7.248.151:8000/")
@@ -57,7 +55,7 @@ public class InternshipsAndJobsActivity extends AppCompatActivity {
         // as fastApi is an interface
         FastAPI fastApi = retrofit.create(FastAPI.class);
 
-        Call<List<internshipsAndJobs>> call = fastApi.getInternships();
+        Call<List<internshipsAndJobs>> call = fastApi.getHackathons();
 
         // retrofit help us to fetch data on different thread, using enqueue
         call.enqueue(new Callback<List<internshipsAndJobs>>() {
@@ -66,19 +64,20 @@ public class InternshipsAndJobsActivity extends AppCompatActivity {
 
                 if(!response.isSuccessful()){
                     //responseTextView.setText("Code: " + response.code());
-                    Toast.makeText(bitsindri.hncc.collegeapp.activities.InternshipsAndJobsActivity.this,"Code: " + response.code(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(bitsindri.hncc.collegeapp.activities.ContestsAndHackathonsActivity.this,"Code: " + response.code(), Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 List<internshipsAndJobs> responseList = response.body();
 
                 for(internshipsAndJobs eachResponse : responseList){
-                    internshipsAndJobsArrayList.add(new internshipsAndJobs(eachResponse.getId(), eachResponse.getTitle(), eachResponse.getUrl()));
+                    contestsAndHackathonsArrayList.add(new internshipsAndJobs(eachResponse.getId(), eachResponse.getTitle(), eachResponse.getUrl()));
                 }
 
-                InternshipsAndJobsAdapter.notifyDataSetChanged();
+                contestsAndHackathonsAdapter.notifyDataSetChanged();
                 mShimmerViewContainer.stopShimmer();
                 mShimmerViewContainer.setVisibility(View.GONE);
+
             }
 
             @Override
@@ -87,9 +86,6 @@ public class InternshipsAndJobsActivity extends AppCompatActivity {
                 Log.i("onFailure","" + t.getMessage());
             }
         });
-
-
-
 
 
     }
