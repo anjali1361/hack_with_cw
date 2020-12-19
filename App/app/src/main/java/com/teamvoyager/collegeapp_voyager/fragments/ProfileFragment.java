@@ -1,4 +1,4 @@
-package bitsindri.hncc.collegeapp.fragments;
+package com.teamvoyager.collegeapp_voyager.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
