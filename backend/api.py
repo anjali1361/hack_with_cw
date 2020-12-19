@@ -12,6 +12,14 @@ cur = conn.cursor()
 
 
 
+class InternshipModel(BaseModel):
+    id: int = 0
+    title: str = "null"
+    url: str = "null"
+
+
+
+
 class PDFModel(BaseModel):
     id: int = 0
     branch: str = "null"
@@ -20,6 +28,23 @@ class PDFModel(BaseModel):
     url: str = "null"
     name: str = "null"
 
+
+@app.get("/internship/")
+async def internship():
+    cur.execute("SELECT TITLE,URL from INTERNSHIP")
+    rows = cur.fetchall()
+    i = 0
+    internship_json: List[InternshipModel] = []
+    for row in rows:
+        internship_item = InternshipModel()
+        internship_item.id = i
+        i = i+1
+        internship_item.title = row[0]
+        internship_item.url = row[1]
+        internship_json.append(internship_item)
+
+    # print(internship_json)
+    return internship_json
 
 
 @app.get("/pdf/")
