@@ -1,4 +1,5 @@
 package com.teamvoyager.collegeapp_voyager.Adapters
+//package bitsindri.hncc.collegeapp.Adapters
 
 import android.content.Context
 import android.content.Intent
