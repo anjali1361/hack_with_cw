@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/food_main_layout">
+
+   <LinearLayout
+    android:id="@+id/llContent"
+    android:layout_width="match_parent" android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+   <ImageView
+       android:layout_weight="6"
+       android:id="@+id/imgimage_url"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:src="@mipmap/ic_launcher"
+       android:padding="5dp"
+       android:scaleType="centerCrop"/>
+
+       <TextView
+           android:id="@+id/txtcategory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:text="Ice Cream Ctegory"
+           android:padding="5dp"
+           android:layout_marginTop="10dp"
+           android:textAlignment="center"
+           android:textSize="18sp"
+           android:textColor="#357a38"
+           android:textStyle="bold" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
