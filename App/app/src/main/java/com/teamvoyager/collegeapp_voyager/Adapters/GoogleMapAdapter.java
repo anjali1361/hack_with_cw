@@ -1,10 +1,9 @@
-package bitsindri.hncc.collegeapp.Adapters;
+package com.teamvoyager.collegeapp_voyager.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -35,7 +34,7 @@ public class GoogleMapAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
 
-        GoogleMapAdapter.GoogleMapViewHolder mapViewHolder = (GoogleMapAdapter.GoogleMapViewHolder)holder;
+        bitsindri.hncc.collegeapp.Adapters.GoogleMapAdapter.GoogleMapViewHolder mapViewHolder = (bitsindri.hncc.collegeapp.Adapters.GoogleMapAdapter.GoogleMapViewHolder)holder;
         mapViewHolder.searches.setText(items.get(position).getSearches());
 
 
