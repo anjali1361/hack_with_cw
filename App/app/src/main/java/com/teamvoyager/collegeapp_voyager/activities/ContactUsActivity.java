@@ -1,9 +1,9 @@
-package bitsindri.hncc.collegeapp.activities;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.teamvoyager.collegeapp_voyager.activities;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import bitsindri.hncc.collegeapp.R;
 
