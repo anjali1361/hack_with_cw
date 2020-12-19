@@ -4,6 +4,12 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
+apply plugin: 'kotlin-android-extensions'
+
+androidExtensions {
+    experimental = true
+}
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -102,7 +108,10 @@ dependencies {
 
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
 
+    implementation 'com.github.karanchuri:PermissionManager:0.1.0'//asking permission for media camera etc
+    implementation 'com.github.inpossoft:CountryCodePickerProject:2.0.0'
 
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
 
 
 
