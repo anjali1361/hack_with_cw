@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.karanchuri:PermissionManager:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc1c4ff24599d13e0c7b49623bf6950d/jetified-PermissionManager-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc1c4ff24599d13e0c7b49623bf6950d/jetified-PermissionManager-0.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc1c4ff24599d13e0c7b49623bf6950d/jetified-PermissionManager-0.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00e6cdd70b63e10fba0ed009d3af0f4e/jetified-PermissionManager-0.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00e6cdd70b63e10fba0ed009d3af0f4e/jetified-PermissionManager-0.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00e6cdd70b63e10fba0ed009d3af0f4e/jetified-PermissionManager-0.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
