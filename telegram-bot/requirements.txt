@@ -1,0 +1,7 @@
+python-telegram-bot==13.1
+bs4
+requests
+psycopg2
+uvicorn
+fastapi
+pydantic
