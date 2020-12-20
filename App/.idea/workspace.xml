@@ -14,46 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630652d8-bfda-4e14-83ff-abe94008ce56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bxute_StoryView_v1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bxute_StoryView_v1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_karanchuri_PermissionManager_0_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_karanchuri_PermissionManager_0_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_shrikanth7698_Custom_Navigation_Drawer_v0_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_shrikanth7698_Custom_Navigation_Drawer_v0_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MainAppHere/College_App.MainAppHere.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MainAppHere/College_App.MainAppHere.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/Adapters/NewMarketAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/Adapters/NewMarketAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/Adapters/marketplaceAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/GetterAndSetter/marketplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/GetterAndSetter/marketplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/Interfaces/ApiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/Interfaces/ApiInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/AddAchievementActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/AddAchievementActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/AddIssueActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/AddIssueActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/fragments/MarketplaceFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/fragments/MarketplaceFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/res/layout/activity_add_achievement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/res/layout/activity_add_achievement.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/res/layout/each_selling_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/res/layout/each_selling_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/res/layout/fragment_marketplace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/res/layout/fragment_marketplace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/sellingItemActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/sellingItemActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[3369a8797d2b]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
