@@ -16,14 +16,13 @@
     <list default="true" id="630652d8-bfda-4e14-83ff-abe94008ce56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/sellingItemActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainAppHere/src/main/java/bitsindri/hncc/collegeapp/activities/sellingItemActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[3369a8797d2b]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -55,18 +54,23 @@
     <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/MainAppHere/build/outputs/apk/debug/MainAppHere-debug.apk" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MainAppHere/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MainAppHere/src/main/res/layout-v28" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bitsindri.hncc.collegeapp.activities" />
+      <recent name="bitsindri.hncc.collegeapp.GetterAndSetter" />
+      <recent name="bitsindri.hncc.collegeapp.Interfaces" />
+      <recent name="bitsindri.hncc.collegeapp.fragments" />
+      <recent name="bitsindri.hncc.collegeapp.Custom_Classes" />
+    </key>
     <key name="android.template.-1020535511">
       <recent name="bitsindri.hncc.collegeapp.activities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rajes\Desktop\hack_with_cw\App\MainAppHere\src\main\res\layout-v28" />
       <recent name="C:\Users\rajes\Desktop\hack_with_cw\App\MainAppHere\src\main\res\layout" />
-    </key>
-    <key name="android.template.203206586">
-      <recent name="bitsindri.hncc.collegeapp.activities" />
     </key>
     <key name="android.template.1870727718">
       <recent name="bitsindri.hncc.collegeapp.activities" />
@@ -77,15 +81,11 @@
     <key name="android.template.-2099118067">
       <recent name="bitsindri.hncc.collegeapp.activities" />
     </key>
-    <key name="android.template.1236213272">
+    <key name="android.template.203206586">
       <recent name="bitsindri.hncc.collegeapp.activities" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="bitsindri.hncc.collegeapp.GetterAndSetter" />
+    <key name="android.template.1236213272">
       <recent name="bitsindri.hncc.collegeapp.activities" />
-      <recent name="bitsindri.hncc.collegeapp.Interfaces" />
-      <recent name="bitsindri.hncc.collegeapp.fragments" />
-      <recent name="bitsindri.hncc.collegeapp.Custom_Classes" />
     </key>
   </component>
   <component name="RunManager">
