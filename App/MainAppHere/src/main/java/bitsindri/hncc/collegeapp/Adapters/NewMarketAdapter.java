@@ -1,24 +1,22 @@
 package bitsindri.hncc.collegeapp.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
-import bitsindri.hncc.collegeapp.Custom_Classes.PhoneNumber;
 import bitsindri.hncc.collegeapp.GetterAndSetter.marketplace;
 import bitsindri.hncc.collegeapp.R;
-import bitsindri.hncc.collegeapp.activities.sellingItemActivity;
 
 public class NewMarketAdapter extends RecyclerView.Adapter<NewMarketAdapter.ExampleViewHolder> {
     private calluser callusers;
@@ -28,7 +26,7 @@ public class NewMarketAdapter extends RecyclerView.Adapter<NewMarketAdapter.Exam
     int temp=0;
 
 
-    public NewMarketAdapter(ArrayList<marketplace> marketplaceList,calluser callusers) {
+    public NewMarketAdapter(ArrayList<marketplace> marketplaceList, calluser callusers) {
         this.marketplaceList = marketplaceList;
        this.callusers= callusers;
 
@@ -46,9 +44,10 @@ public class NewMarketAdapter extends RecyclerView.Adapter<NewMarketAdapter.Exam
     public void onBindViewHolder(@NonNull ExampleViewHolder holder, int position) {
 
 
-       holder.itemCategory.setText(marketplaceList.get(position).getItemCategory());
-        final String price = "Rs. " + marketplaceList.get(position).getItemPrice();
+       holder.itemCategory.setText(marketplaceList.get(position).getCategory());
+        String price = "Rs. " + marketplaceList.get(position).getPrice();
         holder.itemPrice.setText(price);
+        Picasso.get().load(marketplaceList.get(position).getImg_url()).into(holder.imageView);
 
 
     }
@@ -60,6 +59,7 @@ public class NewMarketAdapter extends RecyclerView.Adapter<NewMarketAdapter.Exam
     public  class ExampleViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView itemCategory, itemPrice;
+        ImageView imageView;
         Button starbtn;
         calluser callusers;
 
@@ -68,6 +68,7 @@ public class NewMarketAdapter extends RecyclerView.Adapter<NewMarketAdapter.Exam
             super(itemView);
             itemCategory = itemView.findViewById(R.id.item_category);
             itemPrice = itemView.findViewById(R.id.item_price);
+            imageView=itemView.findViewById(R.id.product_img);
             starbtn = itemView.findViewById(R.id.fav_item);
             this.callusers = calluser;
 
